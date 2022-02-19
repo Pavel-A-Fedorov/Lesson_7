@@ -1,0 +1,232 @@
+/* @import "null.css"; */
+/* &display=swap */
+
+/* ------------------Базовые стили-------------- */
+body {
+	font-family: "GothamPro";
+	font-size: 20px;
+	line-height: 1.5;
+	text-align: center;
+	color: azure;
+	background: url("../img/pattern/stars.png") 0 0 repeat, 
+	url("../img/pattern/Sky-Stars-Pattern.jpg") 0 0 repeat;
+}
+.wrapper {
+	min-height: 100%;
+	/* overflow: hidden; */
+	max-width: 1024px;
+	margin: 0 auto;
+	padding: 40px 0px 40px;
+}
+
+/* ------Задаем отступы базовым блокам------ */
+header {
+	max-width: 350px;
+	margin: 0 auto 40px;
+}
+main {
+	margin: 0px 0px 40px 0px;
+}
+footer {
+	max-width: 350px;
+	margin: 0 auto;
+}
+/* -----Стилизуем заголовки----- */
+h1 {
+	font-size: 34px;
+	font-weight: 900;
+	text-shadow: 0px 6px 10px #bb8f08;
+	margin-bottom: 30px;
+}
+h2.header__subtitle,
+h2.main__subtitle {
+	margin-bottom: 30px;
+	text-transform: lowercase;
+	font-size: 18px;
+	padding: 5px;
+	background-color: #26dbbe6e;
+	border-radius: 4px 14px 4px 14px;
+	box-shadow: 0 0 14px 2px cyan;
+	text-shadow: 0px 5px 3px #000000;
+}
+/* ------Стилизуем параграфы scroll и swipe---- */
+.header__paragraph {
+	text-align: left;
+	font-family: "Hahmlet", serif;
+	font-weight: 700;
+	line-height: 2;
+	text-shadow: 0px 4px 6px cyan;
+	outline: 3px double #664300;
+	padding: 3px 0px 3px 40px;
+	margin-bottom: 20px;
+	border-radius: 6px;
+	box-shadow: 0px 0px 8px 2px whitesmoke;
+}
+p.header__paragraph.paragraph1 {
+	background: url("../img/icons/scroll.png") left / 32px no-repeat,
+		linear-gradient(
+			to bottom,
+			rgba(76, 76, 76, 1) 0%,
+			rgba(89, 89, 89, 1) 12%,
+			rgba(102, 102, 102, 1) 25%,
+			rgba(71, 71, 71, 1) 39%,
+			rgba(44, 44, 44, 1) 50%,
+			rgba(0, 0, 0, 1) 51%,
+			rgba(17, 17, 17, 1) 60%,
+			rgba(43, 43, 43, 1) 76%,
+			rgba(28, 28, 28, 1) 91%,
+			rgba(19, 19, 19, 1) 100%
+		);
+}
+p.header__paragraph.paragraph2 {
+	background: url("../img/icons/swipe-down.png") left / 32px no-repeat,
+		linear-gradient(
+			to bottom,
+			rgba(76, 76, 76, 1) 0%,
+			rgba(89, 89, 89, 1) 12%,
+			rgba(102, 102, 102, 1) 25%,
+			rgba(71, 71, 71, 1) 39%,
+			rgba(44, 44, 44, 1) 50%,
+			rgba(0, 0, 0, 1) 51%,
+			rgba(17, 17, 17, 1) 60%,
+			rgba(43, 43, 43, 1) 76%,
+			rgba(28, 28, 28, 1) 91%,
+			rgba(19, 19, 19, 1) 100%
+		);
+	margin-bottom: 0px;
+}
+/* ------------Взлёт-------------- */
+.main__launch {
+	padding-bottom: 3000px;
+	border-radius: 20px;
+	box-shadow: inset 0px 0px 20px 0px whitesmoke;
+	background: linear-gradient(
+			180deg,
+			rgba(0, 0, 0, 0) 0%,
+			rgba(0, 0, 0, 0.3) 80%,
+			rgba(0, 0, 0, 0.6) 90%,
+			rgba(0, 0, 0, 1) 100%
+		),
+		url("../img/cloud.png") 45% 70% / 300px no-repeat fixed, 
+		url("../img/cloud3.png") 52% 25% / 300px no-repeat fixed,
+		url("../img/2.png") 50% 60% / 80px auto no-repeat, 
+		url("../img/moon-1.png") 50% 10% / 300px no-repeat fixed,
+		url("../img/Nightsky.jpeg") center / cover no-repeat fixed;
+	margin-bottom: 20px;
+}
+.main__launch p {
+	font-size: 180px;
+	padding: 100px;
+	margin-bottom: 300px;
+	opacity: 0.2;
+}
+.main__launch p.last {
+	margin-bottom: 0px;
+}
+/* -----------Дорога-------------- */
+.main__road {
+	padding-bottom: 5000px;
+	box-shadow: 0px 0px 20px 0px whitesmoke;
+	border-radius: 20px;
+	background: linear-gradient(
+			0deg,
+			rgba(0, 0, 0, 0) 0%,
+			rgba(0, 0, 0, 0.3) 80%,
+			rgba(0, 0, 0, 0.6) 90%,
+			rgba(0, 0, 0, 1) 100%
+		),
+		linear-gradient(
+			180deg,
+			rgba(0, 0, 0, 0) 0%,
+			rgba(0, 0, 0, 0.3) 80%,
+			rgba(0, 0, 0, 0.6) 90%,
+			rgba(0, 0, 0, 1) 100%
+		),
+		url("../img/road/traffic-light-2.png") right center / 700px no-repeat,
+		url("../img/musk2.png") center 15% / 170px no-repeat fixed,
+		url("../img/road/car-1.png") center 15% / 200px no-repeat fixed,
+		url("../img/road/tree-1.png") left / 110px repeat-y, 
+		url("../img/road/tree-2.png") right / 110px repeat-y,
+		url("../img/road/roscosmos.png") center 78.5% / 80% auto no-repeat,
+		url("../img/road/rogozin-3.png") center 79.2% / 80px auto no-repeat,
+		url("../img/road/finish-1.png") center 80% / 100% auto no-repeat,
+		url("../img/road/road1.png") center / contain repeat;
+}
+/* -----Открытый космос------- */
+.main__space {
+	padding-bottom: 2000px;
+	border-radius: 20px;
+	background: url("../img/2.png") center 15px / 80px no-repeat fixed;
+}
+/* -------------Посадка--------------- */
+.main__land {
+	padding-bottom: 1500px;
+	box-shadow: inset 0px 0px 20px 0px whitesmoke;
+	border-radius: 20px;
+	background: url("../img/musk5.png") right bottom / 250px auto no-repeat,
+		linear-gradient(
+			180deg,
+			rgba(0, 0, 0, 0) 0%,
+			rgba(0, 0, 0, 0.6) 85%,
+			rgba(0, 0, 0, 0.8) 95%,
+			rgba(0, 0, 0, 1) 100%
+		),
+		url("../img/cloud6.png") 30% 50% / 450px auto no-repeat, 
+		url("../img/cloud3.png") 72% 15% / 450px auto no-repeat,
+		url("../img/2.png") center 15px / 80px no-repeat fixed, 
+		url("../img/moon-2.png") 40% 10% / 500px no-repeat,
+		url("../img/1.jpg") center / cover no-repeat;
+}
+/* ----------Стилизуем кнопку в footer--------- */
+footer a {
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 12px;
+	font-family: "Cairo";
+	font-weight: 600;
+	display: inline-block;
+	border: 2px dotted #8b8ce9;
+	border-radius: 10px;
+	box-shadow: 0px 0px 13px 2px #e1d7c9;
+	background: rgb(184, 225, 252);
+	background: -moz-linear-gradient(
+		top,
+		rgba(184, 225, 252, 1) 0%,
+		rgba(169, 210, 243, 1) 10%,
+		rgba(144, 186, 228, 1) 25%,
+		rgba(144, 188, 234, 1) 37%,
+		rgba(144, 191, 240, 1) 50%,
+		rgba(107, 168, 229, 1) 51%,
+		rgba(162, 218, 245, 1) 83%,
+		rgba(189, 243, 253, 1) 100%
+	);
+	background: -webkit-linear-gradient(
+		top,
+		rgba(184, 225, 252, 1) 0%,
+		rgba(169, 210, 243, 1) 10%,
+		rgba(144, 186, 228, 1) 25%,
+		rgba(144, 188, 234, 1) 37%,
+		rgba(144, 191, 240, 1) 50%,
+		rgba(107, 168, 229, 1) 51%,
+		rgba(162, 218, 245, 1) 83%,
+		rgba(189, 243, 253, 1) 100%
+	);
+	background: linear-gradient(
+		to bottom,
+		rgba(184, 225, 252, 1) 0%,
+		rgba(169, 210, 243, 1) 10%,
+		rgba(144, 186, 228, 1) 25%,
+		rgba(144, 188, 234, 1) 37%,
+		rgba(144, 191, 240, 1) 50%,
+		rgba(107, 168, 229, 1) 51%,
+		rgba(162, 218, 245, 1) 83%,
+		rgba(189, 243, 253, 1) 100%
+	);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b8e1fc', endColorstr='#bdf3fd',GradientType=0 );
+	padding: 10px;
+	margin-bottom: 20px;
+}
+a.footer__link.footer__link-last {
+	margin: 0px 0px 0px 0px;
+}

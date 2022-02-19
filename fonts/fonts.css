@@ -1,0 +1,29 @@
+/* 
+CSS rules to specify families
+font-family: 'Hahmlet', serif;
+ */
+@import url("https://fonts.googleapis.com/css2?family=Hahmlet:wght@400;700;900&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Cairo:500,600&display=swap");
+
+@font-face {
+	font-family: "GothamPro";
+	src: url("GothamPro/GothamPro.woff2") format("woff2"), url("GothamPro/GothamPro.woff") format("woff");
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: "GothamPro";
+	src: url("GothamPro/GothamPro-Italic.woff2") format("woff2") url("GothamPro/GothamPro-Italic.woff") format("woff");
+	font-weight: 400;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: "GothamPro";
+	src: url("GothamPro/GothamPro-Black.woff2") format("woff2"), url("GothamPro/GothamPro-Black.woff") format("woff");
+	font-weight: 900;
+	font-style: normal;
+	font-display: swap;
+}
