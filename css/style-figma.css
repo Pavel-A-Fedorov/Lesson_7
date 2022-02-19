@@ -1,0 +1,136 @@
+/* &display=swap */
+@import url("null.css");
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900&display=swap");
+/*  */
+.wraper {
+	min-height: 100%;
+	overflow: hidden;
+	max-width: 810px;
+	margin: 0 auto;
+	padding: 20px 0px 20px;
+}
+body {
+	font-family: "Lato";
+	color: #424551;
+	line-height: 1.6;
+}
+/* ----------------------- */
+.header {
+	margin: 0px 0px 40px 0px;
+}
+.header__title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	color: #1e212c;
+	margin-bottom: 26px;
+}
+.date-time {
+	color: #787a80;
+	max-width: 280px;
+}
+.header__date {
+	display: inline-block;
+	margin-right: 24px;
+	padding-left: 24px;
+	background: url("../img/icons/calendar.png") left no-repeat;
+}
+.header__time {
+	display: inline-block;
+	padding-left: 24px;
+	background: url("../img/icons/clock.png") left no-repeat;
+}
+.main {
+	margin-bottom: 60px;
+}
+.main__image {
+	margin: 0px 0px 60px 0px;
+}
+.main__text {
+	margin: 0px 0px 60px 0px;
+}
+.main__image img {
+	max-width: 100%;
+}
+.main__paragraph-bold {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #1e212c;
+}
+.main__paragraph-bold-1 {
+	margin: 0px 0px 24px 0px;
+}
+.main__text p.main__paragraph.main__paragraph-1 {
+	margin: 0px 0px 35px 0px;
+}
+.main__paragraph-2 {
+	margin: 0px 0px 48px 0px;
+}
+.main__paragraph-bold-2 {
+	margin: 0px 0px 48px 0px;
+	padding-left: 58px;
+	background: url("../img/icons/braces.png") 0 0 no-repeat;
+}
+.main__paragraph.main__paragraph-3 {
+	margin: 0px 0px 24px 0px;
+}
+.main__list {
+	margin: 0px 0px 24px 0px;
+}
+.main__list li {
+	padding-left: 32px;
+	margin: 0px 0px 4px 0px;
+	background: url("../img/icons/point.png") 0 5px no-repeat;
+}
+.main__list li.main__item-last {
+	margin: 0px 0px 0px 0px;
+}
+/* Why Createx */
+.why {
+	max-width: 390px;
+}
+.why__subtitle {
+	font-weight: 700;
+	line-height: 1.5;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1e212c;
+	margin: 0px 0px 8px 0px;
+}
+.why__sub-subtitle {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	color: #1e212c;
+	margin: 0px 0px 40px 0px;
+}
+.why__list {
+	margin: 0px 0px 48px 0px;
+}
+.why__list li.why__item {
+	margin: 0px 0px 12px 0px;
+	padding-left: 32px;
+	background: url("../img/icons/point.png") 0 5px no-repeat;
+}
+li.why__item.why__item-last {
+	margin: 0px 0px 0px 0px;
+}
+a.why__btn {
+	display: inline-block;
+	text-align: center;
+	font-weight: 700;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	color: #ffffff;
+	background: linear-gradient(55.95deg, #ff3f3a 0%, #f75e05 100%);
+	border-radius: 4px;
+	padding: 14px 32px;
+}
+/* ------------Footer-------- */
+.footer {
+	text-align: center;
+}
+.footer p {
+	display: inline-block;
+}
